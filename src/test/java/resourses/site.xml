@@ -1,0 +1,11 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Hillel Test" configfailurepolicy="continue">
+    <test name="Parallel_2_threads_tests" parallel="classes" thread-count="2">
+        <classes>
+<!--            <class name="AnnotationsTestNG"/> -->
+            <class name="GuruTest99"/>
+        </classes>
+    </test>
+
+</suite>
